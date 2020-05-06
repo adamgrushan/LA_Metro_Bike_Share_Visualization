@@ -49,7 +49,7 @@ def plot_histogram(data_series, bin_list=None, auto_bin=True):
 
 if __name__ == '__main__':
     # Read the csv into a data frame
-    data_path = '../Data/metro-bike-share-trips-2020-q1.csv'
+    data_path = 'Data/metro-bike-share-trips-2020-q1.csv'
     q1_data = pd.read_csv(data_path, index_col=False)
 
     # #print out each of the data columns

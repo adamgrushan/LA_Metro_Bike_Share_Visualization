@@ -14,7 +14,7 @@ if __name__ == '__main__':
 
     # read in data
 
-    df_all = pd.read_csv('../Data/metro-bike-share-trips-2020-q1.csv')
+    df_all = pd.read_csv('Data/metro-bike-share-trips-2020-q1.csv')
 
     head = df_all.head()
 
@@ -47,7 +47,7 @@ if __name__ == '__main__':
 
     # read in map file
 
-    la_map = plt.imread('../Data/LA_Map.png')
+    la_map = plt.imread('Data/LA_Map.png')
 
     # plot points
 
